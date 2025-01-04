@@ -17,7 +17,7 @@ if not os.path.exists(UPLOAD_FOLDER):
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 try:
-    model = load_model('./covid_resnet.keras')
+    model = load_model('./covid19_resnet.keras')
     print("COVID model loaded successfully.")
 except Exception as e:
     print(f"Error loading COVID model: {e}")
