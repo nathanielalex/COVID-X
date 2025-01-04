@@ -12,8 +12,9 @@ How to run:
 3. Run the server -> "python Flask_Covid.py"
 4. Open another terminal for Next.js (frontend)
 5. Navigate to the Next.js app directory -> "cd CovidX-main/covid-x"
-6. Run Next.js app -> "npm run dev"
-7. Open the app in your browser -> http://localhost:3000
+6. Install dependencies -> "npm install"
+7. Run Next.js app -> "npm run dev"
+8. Open the app in your browser -> http://localhost:3000
 
 Here are the colab links for training the model:
 Machine Learning COVID-19: https://colab.research.google.com/drive/1nMRoXiTRNg71avgMGv2CT-k0hRembxh3?usp=sharing
